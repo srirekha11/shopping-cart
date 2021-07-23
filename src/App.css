@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+}
+.about-us:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cart-box {
+  margin-left: auto;
+  display: flex;
+}
+
+.card-body {
+  background-color: rgb(120, 131, 167);
+}
+
+.items-container {
+  background-image: url(/src/background.jpg);
+  background-repeat: no-repeat;
+}
+
+.incart-message {
+  width: 100%;
+}
+
+.update-rating {
+  background-color: rgb(212, 145, 145);
+  border: 1px dotted green;
+  border-radius: 20%;
+}
+
+.price-text {
+  font-size: large;
+}
